@@ -1,0 +1,62 @@
+package net.minecraft.src;
+
+import net.minecraft.client.Minecraft;
+import org.lwjgl.opengl.GL11;
+
+public class GuiButton extends Gui {
+	public int g;
+	public int h;
+	public int width;
+	public int height;
+	public String c;
+	public int yPosition;
+	public boolean e;
+	public boolean f;
+
+	public GuiButton(int var1, int var2, int var3, String var4) {
+		this(var1, var2, var3, 200, 20, var4);
+	}
+
+	protected GuiButton(int var1, int var2, int var3, int var4, int var5, String var6) {
+		this.g = 200;
+		this.h = 20;
+		this.e = true;
+		this.f = true;
+		this.yPosition = var1;
+		this.width = var2;
+		this.height = var3;
+		this.g = var4;
+		this.h = var5;
+		this.c = var6;
+	}
+
+	public void drawButton(Minecraft minecraft, int mouseX, int mouseY) {
+		if(this.f) {
+			FontRenderer var4 = minecraft.fontRenderer;
+			GL11.glBindTexture(GL11.GL_TEXTURE_2D, minecraft.renderEngine.getTexture("/gui/gui.png"));
+			GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
+			byte var5 = 1;
+			boolean var6 = mouseX >= this.width && mouseY >= this.height && mouseX < this.width + this.g && mouseY < this.height + this.h;
+			if(!this.e) {
+				var5 = 0;
+			} else if(var6) {
+				var5 = 2;
+			}
+
+			this.drawTexturedModalRect(this.width, this.height, 0, 46 + var5 * 20, this.g / 2, this.h);
+			this.drawTexturedModalRect(this.width + this.g / 2, this.height, 200 - this.g / 2, 46 + var5 * 20, this.g / 2, this.h);
+			if(!this.e) {
+				this.drawCenteredString(var4, this.c, this.width + this.g / 2, this.height + (this.h - 8) / 2, -6250336);
+			} else if(var6) {
+				this.drawCenteredString(var4, this.c, this.width + this.g / 2, this.height + (this.h - 8) / 2, 16777120);
+			} else {
+				this.drawCenteredString(var4, this.c, this.width + this.g / 2, this.height + (this.h - 8) / 2, 14737632);
+			}
+
+		}
+	}
+
+	public boolean a(int var1, int var2) {
+		return this.e && var1 >= this.width && var2 >= this.height && var1 < this.width + this.g && var2 < this.height + this.h;
+	}
+}
