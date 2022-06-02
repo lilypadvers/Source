@@ -1,0 +1,134 @@
+Error list:
+
+Error on line 159 in src\minecraft\net\minecraft\client\Minecraft.java
+unreported exception org.lwjgl.LWJGLException; must be caught or declared to be thrown
+
+Error on line 161 in src\minecraft\net\minecraft\client\Minecraft.java
+unreported exception org.lwjgl.LWJGLException; must be caught or declared to be thrown
+
+Error on line 172 in src\minecraft\net\minecraft\client\Minecraft.java
+unreported exception org.lwjgl.LWJGLException; must be caught or declared to be thrown
+
+Error on line 187 in src\minecraft\net\minecraft\client\Minecraft.java
+unreported exception org.lwjgl.LWJGLException; must be caught or declared to be thrown
+
+Error on line 196 in src\minecraft\net\minecraft\client\Minecraft.java
+unreported exception org.lwjgl.LWJGLException; must be caught or declared to be thrown
+
+Error on line 197 in src\minecraft\net\minecraft\client\Minecraft.java
+unreported exception org.lwjgl.LWJGLException; must be caught or declared to be thrown
+
+Error on line 282 in src\minecraft\net\minecraft\client\Minecraft.java
+unreported exception org.lwjgl.LWJGLException; must be caught or declared to be thrown
+
+Error on line 61 in src\minecraft\net\minecraft\src\ns.java
+'void' type not allowed here
+
+Error on line 112 in src\minecraft\net\minecraft\src\ns.java
+incompatible types: void cannot be converted to boolean
+
+Error on line 112 in src\minecraft\net\minecraft\src\ns.java
+incompatible types: void cannot be converted to boolean
+
+Error on line 112 in src\minecraft\net\minecraft\src\ns.java
+incompatible types: void cannot be converted to boolean
+
+Error on line 112 in src\minecraft\net\minecraft\src\ns.java
+incompatible types: void cannot be converted to boolean
+
+Error on line 112 in src\minecraft\net\minecraft\src\ns.java
+incompatible types: void cannot be converted to boolean
+
+Error on line 112 in src\minecraft\net\minecraft\src\ns.java
+incompatible types: bad type in conditional expression
+    bad type in conditional expression
+      bad type in conditional expression
+        bad type in conditional expression
+          bad type in conditional expression
+            void cannot be converted to boolean
+
+Error on line 170 in src\minecraft\net\minecraft\src\ns.java
+'void' type not allowed here
+
+Error on line 171 in src\minecraft\net\minecraft\src\ns.java
+incompatible types: void cannot be converted to boolean
+
+Error on line 180 in src\minecraft\net\minecraft\src\ns.java
+incompatible types: void cannot be converted to boolean
+
+Error on line 189 in src\minecraft\net\minecraft\src\ns.java
+incompatible types: void cannot be converted to boolean
+
+Error on line 198 in src\minecraft\net\minecraft\src\ns.java
+incompatible types: void cannot be converted to boolean
+
+Error on line 207 in src\minecraft\net\minecraft\src\ns.java
+incompatible types: void cannot be converted to boolean
+
+Error on line 120 in src\minecraft\net\minecraft\src\BlockDirt.java
+incompatible types: bad type in conditional expression
+    void cannot be converted to boolean
+
+Error on line 247 in src\minecraft\net\minecraft\src\TileEntitySign.java
+incompatible types: bad type in conditional expression
+    void cannot be converted to boolean
+
+Error on line 14 in conf\start\MinecraftImpl.java
+constructor Minecraft in class net.minecraft.src.Minecraft cannot be applied to given types;
+  required: int,java.lang.Class,java.lang.Class[]
+  found:    java.awt.Component,java.awt.Canvas,net.minecraft.client.MinecraftApplet,int,int,boolean
+  reason: actual and formal argument lists differ in length
+
+Error on line 20 in conf\start\MinecraftImpl.java
+constructor PanelCrashReport in class net.minecraft.src.PanelCrashReport cannot be applied to given types;
+  required: no arguments
+  found:    net.minecraft.src.UnexpectedThrowable
+  reason: actual and formal argument lists differ in length
+
+Error on line 30 in conf\start\Start.java
+no suitable constructor found for Thread(net.minecraft.src.Minecraft,java.lang.String)
+    constructor java.lang.Thread.Thread(java.lang.Runnable,java.security.AccessControlContext) is not applicable
+      (argument mismatch; net.minecraft.src.Minecraft cannot be converted to java.lang.Runnable)
+    constructor java.lang.Thread.Thread(java.lang.ThreadGroup,java.lang.Runnable) is not applicable
+      (argument mismatch; net.minecraft.src.Minecraft cannot be converted to java.lang.ThreadGroup)
+    constructor java.lang.Thread.Thread(java.lang.ThreadGroup,java.lang.String) is not applicable
+      (argument mismatch; net.minecraft.src.Minecraft cannot be converted to java.lang.ThreadGroup)
+    constructor java.lang.Thread.Thread(java.lang.Runnable,java.lang.String) is not applicable
+      (argument mismatch; net.minecraft.src.Minecraft cannot be converted to java.lang.Runnable)
+
+Error on line 43 in conf\start\Start.java
+cannot find symbol
+  symbol:   variable appletMode
+  location: variable mc of type net.minecraft.src.Minecraft
+
+Error on line 44 in conf\start\Start.java
+cannot find symbol
+  symbol:   variable minecraftUri
+  location: variable mc of type net.minecraft.src.Minecraft
+
+Error on line 46 in conf\start\Start.java
+cannot find symbol
+  symbol:   variable session
+  location: variable mc of type net.minecraft.src.Minecraft
+
+Error on line 46 in conf\start\Start.java
+constructor Session in class net.minecraft.src.Session cannot be applied to given types;
+  required: int
+  found:    java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+
+Error on line 49 in conf\start\Start.java
+cannot find symbol
+  symbol:   variable session
+  location: variable mc of type net.minecraft.src.Minecraft
+
+Error on line 49 in conf\start\Start.java
+constructor Session in class net.minecraft.src.Session cannot be applied to given types;
+  required: int
+  found:    java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+
+Error on line 54 in conf\start\Start.java
+cannot find symbol
+  symbol:   method setServer(java.lang.String,int)
+  location: variable mc of type net.minecraft.src.Minecraft
