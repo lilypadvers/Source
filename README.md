@@ -1,6 +1,6 @@
-# Dear Microsoft:
-You can not take this down for three reasons.
-1. The source code is for development purposes only.
-2. The source code is modified.
-3. This is not commercial and I'm not making a single cent.
-Thank you Microsoft for reading this!
+# Lilypad Versions
+The source code of all Lilypad versions.
+# Dear Microsoft: 
+1. This is modified code.
+2. All rights go to Microsoft and Mojang
+3. I am not using this for commerical use
