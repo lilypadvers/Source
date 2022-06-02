@@ -1,6 +1,4 @@
 # WARNING:
 This version has errors, I am too dumb at fucking Java so please help :(
 <br>
-No server since too dumb
-<br>
-Error list if you are good at Java: (lemme send rq)
+Error list if you are good at Java: https://github.com/lilypadvers/Source/raw/main/v1605%20Preview%20Client/errors.txt
